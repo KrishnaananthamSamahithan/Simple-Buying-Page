@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar bg">
+      <ul class="link-container">
+        <li class="link-item">
+          <a href="index.html" class="link"> Home </a>
+        </li>
+        <li class="link-item">
+          <a href="product.html" class="link link-active"> Product </a>
+        </li>
+        <li class="link-item">
+          <a href="gallery.html" class="link"> Gallery </a>
+        </li>
+        <li class="link-item"><a href="#" class="link"> About Us </a></li>
+        <li class="link-item">
+          <a href="site-map.html" class="link"> Site Map </a>
+        </li>
+      </ul>
+      <div class="user-intraction">
+        <div class="cart">
+          <i class="bx bx-cart cart-icon"></i>
+        </div>
+      </div>
+      <div class="cart-style">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content"></div>
+        <div class="total">
+          <div class="total-title">total:</div>
+          <div class="total-price">$0</div>
+        </div>
+        <form action="payment.html">
+          <button type="button" class="btn-buy">Check Out</button>
+        </form>
+        <i class="bx bx-x" id="close-cart"></i>
+      </div>
+    </nav>
+
+    <section class="shop container">
+      <h2 class="section-title">Shop Products</h2>
+      <div class="shop-content">
+        <div class="product-box">
+          <img src="img/mask1.png" class="product-img" alt="" />
+          <h2 class="product-title">Kandy Mask</h2>
+          <span class="price">$10</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/mask2.png" class="product-img" alt="" />
+          <h2 class="product-title">Galle Mask</h2>
+          <span class="price">$12</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/cane1.png" class="product-img" alt="" />
+          <h2 class="product-title">Cane Goods Bag</h2>
+          <span class="price">$30</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/cane2.png" class="product-img" alt="" />
+          <h2 class="product-title">Cane Hand Bag</h2>
+          <span class="price">$15</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/cane3.png" class="product-img" alt="" />
+          <h2 class="product-title">Cane Chair</h2>
+          <span class="price">$25</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/cane4.png" class="product-img" alt="" />
+          <h2 class="product-title">Cane Bag</h2>
+          <span class="price">$20</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/wood1.png" class="product-img" alt="" />
+          <h2 class="product-title">Wood Man</h2>
+          <span class="price">$16</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/Wood2.png" class="product-img" alt="" />
+          <h2 class="product-title">Wood Elephant</h2>
+          <span class="price">$40</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/pot1.png" class="product-img" alt="" />
+          <h2 class="product-title">Jwell Box</h2>
+          <span class="price">$20</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+
+        <div class="product-box">
+          <img src="img/pot2.png" class="product-img" alt="" />
+          <h2 class="product-title">Tea Pot</h2>
+          <span class="price">$8</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Designed By <span><a href="individual.html">K.Samahithan</a></span>
+    </footer>
+
+    <!-- Link to javascript-->
+    <script src="js/product.js"></script>
+  </body>
+</html>
